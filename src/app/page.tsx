@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-teal-950 h-full md:h-screen max-w-screen-2xl mx-auto pt-14">
+    <div className="bg-teal-950 min-h-screen min-w-fit md:h-screen max-w-screen-2xl mx-auto pt-14">
       <div className="flex flex-col md:flex-row items-start max-w-screen-2xl mx-auto px-8 md:px-24">
         {/* Text Section */}
         <div className="md:w-1/2 space-y-2 pt-0 text-white">
-          <h1 className="font-sans font-bold -tracking-tighter">
+          <h1 className="font-sans font-bold tracking-tighter md:-tracking-tighter ">
             <span className="text-xl block">Hi, I am Minhal</span>
-            <span className="font-extrabold text-7xl block">I AM A WEB</span>
-            <span className="font-extrabold text-7xl block">DEVELOPER</span>
+            <span className="font-extrabold text-5xl md:text-7xl block">I AM A WEB</span>
+            <span className="font-extrabold text-5xl md:text-7xl block">DEVELOPER</span>
           </h1>
 
           <section className="font-sans text-sm font-medium space-y-1">
