@@ -1,5 +1,4 @@
 // Header.tsx
-import header from "@/components/ui/Header";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import {
