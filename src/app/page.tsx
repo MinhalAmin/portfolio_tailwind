@@ -8,8 +8,8 @@ export default function Home() {
         {/* Text Section */}
         <div className="md:w-1/2 space-y-2 pt-0 text-white">
           <h1 className="font-sans font-bold -tracking-tighter">
-            <span className="text-xl block">Hi, I'm Minhal</span>
-            <span className="font-extrabold text-7xl block">I'M A WEB</span>
+            <span className="text-xl block">Hi, I am Minhal</span>
+            <span className="font-extrabold text-7xl block">I AM A WEB</span>
             <span className="font-extrabold text-7xl block">DEVELOPER</span>
           </h1>
 
